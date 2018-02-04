@@ -109,7 +109,7 @@ Most websites consist of an HTML page, which references various other resources 
 
 With the **prefetch** option turned on at the time when the CDN serves the HTML base page to the client’s browser, the CDN parses the HTML file and make additional requests for any linked resources and store it in its cache. When the client makes the requests for the linked assets, the CDN edge server already has the requested objects and can serve them immediately without a round trip to the origin. This optimization benefits both cacheable and non-cacheable content.
 
-### Adaptive Image Compression (Akamai only)
+### JPEG Adaptive Image Compression (Akamai only)
 
 Some devices, especially mobile ones, experience slower network speeds from time to time. In these scenarios, it is more beneficial for the user to receive smaller images in their webpage more quickly rather than waiting a long time for full resolution images.
 
